@@ -7,25 +7,75 @@
 */
 
 html, body {
-    margin: 0;
+    width: 375px;
+    display: block;
+    margin: 0 auto;
     padding: 0;
     font-family: "Source Sans Pro", sans-serif;
-    width: 100%;
 }
-
+.section{
+}
+/* img */
 .logo-img{
-    width: 127px;
+    width: 160px;
 }
-
 .user-img, .followed-img{
     width: 34px;
+    border: none;
+    border-radius: 50px;
+    align-self: center;
 }
-
+.user-img{
+    margin: auto 0 auto auto;
+}
 .post-img {
-    width: 375px;
+    width: 372px;
     height: 375px;
+    margin: 0;
 }
-
 .icon{
     width: 20px;
+}
+
+/* div */
+.header{
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    height: 67px;
+    margin: 0;
+    border-bottom: 2px solid #C6C6C6;
+    /* border: 2px dotted red; */
+}
+
+/* followed container */
+.container{
+    display: flex;
+    /* border: 2px dotted rebeccapurple; */
+    padding: 5px 5px 5px 5px;
+}
+/* .followed-info{
+    border: 2px dotted red;
+} */
+.followed-name, .followed-location{
+    display: block;
+    margin: 0;
+    font-size: 13px;
+}
+.followed-name{
+    font-weight: bold;
+}
+
+/* reaction */
+.reaction{
+    padding: 15px 5px;
+}
+.num-of-likes{
+    display: block;
+}
+.num-of-likes, .username{
+    font-weight: bold;
+    font-size: 13px;
+}
+.comment{
+    font-weight: normal;
 }
