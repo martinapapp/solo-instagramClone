@@ -13,8 +13,6 @@ html, body {
     padding: 0;
     font-family: "Source Sans Pro", sans-serif;
 }
-.section{
-}
 /* img */
 .logo-img{
     width: 160px;
@@ -51,14 +49,14 @@ html, body {
 .container{
     display: flex;
     /* border: 2px dotted rebeccapurple; */
-    padding: 5px 5px 5px 5px;
+    padding: 10px;
 }
 /* .followed-info{
     border: 2px dotted red;
 } */
 .followed-name, .followed-location{
     display: block;
-    margin: 0;
+    margin: 0 auto 0 10px;
     font-size: 13px;
 }
 .followed-name{
@@ -67,7 +65,11 @@ html, body {
 
 /* reaction */
 .reaction{
-    padding: 15px 5px;
+    padding: 15px 10px;
+}
+.icon{
+    width: 25px;
+    padding: 0 15px 0 0;
 }
 .num-of-likes{
     display: block;
